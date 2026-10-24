@@ -11,8 +11,19 @@
 
 # CELL ********************
 
-# Welcome to your new notebook
-# Type here in the cell editor to add code!
+import pandas as pd
+from delta.tables import DeltaTable
+
+
+shortcut_path = "/lakehouse/default/Files/TransactionLines/TransactionLines.xlsx"
+
+pdframe = pd.read_excel(shortcut_path)
+
+df_incoming = spark.createDataFrame(pdframe)
+
+display(df_incoming)
+
+
 
 
 # METADATA ********************
