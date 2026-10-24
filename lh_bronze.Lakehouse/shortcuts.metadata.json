@@ -1,0 +1,14 @@
+[
+  {
+    "name": "TransactionLines",
+    "path": "/Files",
+    "target": {
+      "type": "OneDriveSharePoint",
+      "oneDriveSharePoint": {
+        "connectionId": "45e7e067-0a53-4354-ab58-21c4a042ffda",
+        "location": "https://thfabricdemos.sharepoint.com",
+        "subpath": "/sites/THFabricDemos/Shared Documents/Transactions/TransactionLines"
+      }
+    }
+  }
+]
