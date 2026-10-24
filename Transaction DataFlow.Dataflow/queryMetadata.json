@@ -1,0 +1,22 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Transaction DataFlow",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "Query": {
+      "queryId": "e6412ab5-6208-4ff7-bb9f-40519468c08f",
+      "queryName": "Query"
+    }
+  },
+  "connections": [
+    {
+      "path": "https://thfabricdemos.sharepoint.com",
+      "kind": "SharePoint",
+      "connectionId": "{\"ClusterId\":\"d92f5ef3-e61e-4427-a116-ef868cd4d06c\",\"DatasourceId\":\"bdae7812-81f6-42f4-9293-311f83f4e8b8\"}"
+    }
+  ]
+}
