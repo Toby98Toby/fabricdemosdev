@@ -9,7 +9,14 @@
   "queriesMetadata": {
     "Query": {
       "queryId": "e6412ab5-6208-4ff7-bb9f-40519468c08f",
-      "queryName": "Query"
+      "queryName": "Query",
+      "loadEnabled": false
+    },
+    "Query_DataDestination": {
+      "queryId": "2767b2f8-9260-401b-ace4-c355a001037f",
+      "queryName": "Query_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
     }
   },
   "connections": [
@@ -17,6 +24,11 @@
       "path": "https://thfabricdemos.sharepoint.com",
       "kind": "SharePoint",
       "connectionId": "{\"ClusterId\":\"d92f5ef3-e61e-4427-a116-ef868cd4d06c\",\"DatasourceId\":\"bdae7812-81f6-42f4-9293-311f83f4e8b8\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"d92f5ef3-e61e-4427-a116-ef868cd4d06c\",\"DatasourceId\":\"f47e2f2a-3695-4511-9cf3-8bc76ff4cfcb\"}"
     }
   ]
 }
